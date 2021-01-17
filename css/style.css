@@ -1,6 +1,9 @@
 body {
     background-color: #ffffff;
     font-family: 'Open Sans', sans-serif;
+    position: relative;
+    margin: 0;
+    padding: 0;
 }
 
 /* ul li links */
@@ -91,3 +94,32 @@ ul.upper-right-links a{
 }
 
 
+/*  advanced page */
+
+.adv-nav{
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+.adv-nav img{
+    width: 90px;
+    margin: 13px;
+}
+
+.red{
+    font-weight: bold;
+    display: block;
+    padding: 0;
+    margin-top: 25px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #d93025;
+}
+
+
+hr{
+    color: #f1f1f1;
+    opacity: 0.5;
+}
