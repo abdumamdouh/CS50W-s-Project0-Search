@@ -1,12 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Google</title>
+        <link rel="stylesheet" href="../CS50W-s-Project0-Search/css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     </head>
     <body>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+
+        <ul class="upper-right-links">
+            <li><a href="../CS50W-s-Project0-Search/images.html">Images</a></li>
+            <li><a href="../CS50W-s-Project0-Search/advanced.html">Advanced Search</a></li>
+        </ul>
+        
+        <div class="google-search">
+        <img class="google-logo" src="../CS50W-s-Project0-Search/img/google.png" alt="google's logo">
+            <form action="https://google.com/search" class="search-bar">
+                <input class="search-bar" type="text" name="q">
+                <input class="submit-button" type="submit" value="Google Search">
+                <input class="submit-button" type="submit" value="I'm Feeling Lucky">
+            </form>
+        </div>
+        
+        <footer>
+            
+        </footer>
     </body>
 </html>

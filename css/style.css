@@ -1,0 +1,57 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* ul li links */
+ul.upper-right-links{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.upper-right-links li {
+    float: right;
+    margin : 5px;
+}
+
+ul.upper-right-links a{
+    display: block;
+    text-decoration: none;
+    color: #212121;
+    font-size: 12px;
+}
+
+.upper-right-links a:hover{
+    text-decoration: underline;
+}
+
+.upper-right-links li img {
+    display: inline;
+}
+
+/*    */
+
+
+.google-search {
+    margin: ;
+    text-align: center;
+    
+}
+
+.google-logo {
+    margin-bottom: 20px;
+}
+
+.submit-button {
+    display: inline-block;
+    border: none;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+}
+ 
+.submit-button:hover {
+    border: #dadce0 0.2px solid;
+}
+
